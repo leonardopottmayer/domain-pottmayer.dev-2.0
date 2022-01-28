@@ -91,7 +91,7 @@ font-family: 'Mochiy Pop P One', sans-serif;
 
 /* About Image */
 .about-image {
-    width: 49%;
+    width: 69%;
 }
 
 .col-about-right {
@@ -156,7 +156,60 @@ font-family: 'Mochiy Pop P One', sans-serif;
     width: 100px;
 }
 
+/* --------------------------------------------------------------------------- */
+/* SECTION MY PROJECTS */
+#section-myprojects {
+
+}
+
 /* Content My Projects */
 .content-myprojects {
-    background-color: green;
+    text-align: center;
+    background-color: #292C35;
+    padding: 3% 9%;
+}
+
+/* My Projects Title */
+.content-myprojects h1 {
+    color: #E8F1F2;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 1%;
+}
+
+/* Cards */
+.card-group .card {
+    margin: 1% 1%;
+}
+
+/* Image Inside of The Cards */
+.card-group img {
+    width: 100%;
+}
+
+/* --------------------------------------------------------------------------- */
+/* SECTION MY PROJECTS */
+#section-contact {
+
+}
+
+/* Content Contact */
+.content-contact {
+    padding: 3%;
+    text-align: center;
+}
+
+/* Inputs */
+.inputForm {
+    display: block;
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    
 }
