@@ -1,0 +1,162 @@
+/* COLORS
+#17181D
+#292C35
+#13293D
+#006494
+#247BA0
+#E8F1F2
+*/
+
+/* FONTS
+font-family: 'Fredoka One', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Mochiy Pop P One', sans-serif;
+*/
+
+/* --------------------------------------------------------------------------- */
+/* SECTION TITLE / TOP */
+
+/* Navbar */
+.navbar {
+    background-color: #17181D;
+}
+
+/* Background Image / Color on Top */
+.section-top-content {
+    /* background-image: url("images/background-2.jpg"); */
+    background-color: #17181D;
+}
+
+/* Top */
+.col-top-left {
+    /* background-color: green; */
+    padding: 3% 7%;
+    /* background
+    -color: red; */
+}
+
+.col-top-right {
+    text-align: center;
+}
+
+/* Small Title */ /* Olá, meu nome é */
+.small-title-light {
+    color: #E8F1F2;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin-bottom: 0%;
+}
+
+/* Big Title */ /* Leonardo Pottmayer */
+.big-title-light {
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-bottom: 5%;
+}
+
+/* Paragraph */ /* Estudando para ser um Desenvolvedor Full Stack */
+.paragraph-light {
+    color: #E8F1F2;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+}
+
+/* Colored Span Insite Paragraph */
+.color-span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Contact Button */
+.button-top {
+    margin-top: 1%;
+}
+
+/* --------------------------------------------------------------------------- */
+/* SECTION ABOUT */
+#section-about {
+
+}
+
+/* Background Image / Color on About */
+.section-about-content {
+    background-color: #E8F1F2;
+    padding: 5%;
+}
+
+/* About */
+.col-about-left {
+    text-align: center;
+}
+
+/* About Image */
+.about-image {
+    width: 49%;
+}
+
+.col-about-right {
+    /* background-color: green; */
+
+}
+
+/* About Small Title */
+.small-title-dark {
+    color: #17181D;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin-bottom: 2%;
+    font-weight: 600;
+}
+
+/* About Mediu Title */
+.medium-title-dark {
+    color: #17181D;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+/* About Paragraph (There is a js function setting this text, and updating the age) */
+.about-paragraph {
+    color: #17181D;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+}
+
+/* Div Content Technologies */
+.content-technologies {
+    margin-top: 3%;
+    text-align: center;
+}
+
+/* Title Above Used Technologies */
+.content-technologies h1 {
+    color: #17181D;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+/* Div Technology Item (Each item has it's own div) */
+.technology-item {
+    /* background-color: green; */
+    padding: 20px;
+}
+
+/* Technology Name */
+.content-technologies h4 {
+    color: #17181D;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+
+/* Technology Logo */
+.technology-image {
+    width: 100px;
+}
+
+/* Content My Projects */
+.content-myprojects {
+    background-color: green;
+}
