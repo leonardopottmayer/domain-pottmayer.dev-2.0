@@ -19,6 +19,7 @@ font-family: 'Mochiy Pop P One', sans-serif;
 /* Navbar */
 .navbar {
     background-color: #17181D;
+    padding: 0.5%;
 }
 
 /* Background Image / Color on Top */
@@ -37,6 +38,11 @@ font-family: 'Mochiy Pop P One', sans-serif;
 
 .col-top-right {
     text-align: center;
+}
+
+.col-top-right img {
+    width: 50%;
+    margin: 5%
 }
 
 /* Small Title */ /* Olá, meu nome é */
@@ -89,9 +95,14 @@ font-family: 'Mochiy Pop P One', sans-serif;
     text-align: center;
 }
 
+.col-about-left a {
+    display: block;
+    margin-top: 3%;
+}
+
 /* About Image */
 .about-image {
-    width: 69%;
+    width: 65%;
 }
 
 .col-about-right {
@@ -200,16 +211,86 @@ font-family: 'Mochiy Pop P One', sans-serif;
     text-align: center;
 }
 
+.content-contact-options {
+    margin-bottom: 1%;
+}
+
+/* Div That Contains The Form */
+.containerForm {
+    text-align: center;
+    display: inline-block;
+}
+
+/* Form */
+.formLogin {
+    text-align: center;
+}
+
 /* Inputs */
 .inputForm {
     display: block;
+    text-align: center;
+    width: 350px;
+    height: 30px;
+    margin: 5px 0;
 }
 
+/* Submit Form Button */
+.containerForm button {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin: 5px 0;
+}
 
+/* --------------------------------------------------------------------------- */
+/* FOOTER */
+footer {
+    background-color: #17181D;
+    text-align: center;
+    padding: 1%;
+}
 
+footer h2 {
+    color: #E8F1F2;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 1%;
+}
 
+/* --------------------------------------------------------------------------- */
+/* MEDIA */
+@media screen and (max-width: 990px) {
+    body {
+        text-align: center;
+    }
 
+    .col-about-right h3 {
+        margin-top: 3%;
+    }
+
+}
 
 @media screen and (max-width: 500px) {
-    
+    body {
+        text-align: center;
+    }
+
+    .col-about-left a {
+        display: block;
+        margin: 30px;
+    }
+
+    .content-myprojects h1 {
+        margin: 3% 0;
+    }
+
+    .card-group .card {
+        margin: 3% 1%;
+    }
+
+    footer {
+        padding: 3%;
+    }
 }
