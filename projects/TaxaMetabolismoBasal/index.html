@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcular TMB</title>
+</head>
+<body>
+    <h1>Calculadora de TMB</h1>
+    <p>Taxa de metabolismo basal</p>
+
+    <!-- INPUTS -->
+    <div>
+        <h3>Sexo (m para masculino e f para feminino)</h3>
+        <input id="sex" type="checkbox">
+    </div>
+    
+    <div>
+        <h3>Peso (em kg)</h3>
+        <input id="weight" type="number">
+    </div>
+
+    <div>
+        <h3>Altura (em cm)</h3>
+        <input id="height" type="number">
+    </div>
+
+    <div>
+        <h3>Idade</h3>
+        <input id="age" type="number">
+    </div>
+
+    <div>
+        <button id="buttonCalculate">Calcular</button>
+        <button id="buttonClear">Limpar</button>
+    </div>
+
+    <div>
+        <h3>Resultado:</h3>
+        <label id="result"></label>
+    </div>
+    
+
+    
+
+
+
+    <!-- Import jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Import index.js -->
+    <script src="index.js"></script>
+</body>
+</html>
